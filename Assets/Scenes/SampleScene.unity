@@ -156,6 +156,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &90810419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90810416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7bdab2bf8c5b74ea8b5d24b3cacca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeThreshold: 50
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +257,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14946175, y: 2.880001, z: -8.944571}
+  m_LocalPosition: {x: 0, y: 2.88, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -457,17 +470,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 80f76338f37288546a2fd77ab85fb617,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.14946175
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80f76338f37288546a2fd77ab85fb617,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000009536743
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80f76338f37288546a2fd77ab85fb617,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.9445705
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80f76338f37288546a2fd77ab85fb617,
         type: 3}
@@ -518,6 +531,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 90810418}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 80f76338f37288546a2fd77ab85fb617,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 90810419}
   m_SourcePrefab: {fileID: 100100000, guid: 80f76338f37288546a2fd77ab85fb617, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -700,7 +717,7 @@ Transform:
   m_GameObject: {fileID: 1298706413}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14946175, y: 2.880001, z: -8.944571}
+  m_LocalPosition: {x: 0, y: 2.88, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
